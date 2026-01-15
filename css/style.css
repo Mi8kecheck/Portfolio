@@ -1,0 +1,87 @@
+@font-face {
+  font-family: "Irish Grover"; /* Reference name for the font */
+  src: url("../fonts/Irish_Grover/IrishGrover-Regular.ttf");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "Artifika"; /* Reference name for the font */
+  src: url("../fonts/Artifika/Artifika-Regular.ttf");
+  font-weight: normal;
+}
+
+h1, .irish-grover-regular {
+  font-family: "Irish Grover", system-ui;
+  font-weight: 400;
+  font-style: bold;
+}
+
+p, ul, li, .artifika-regular {
+  font-family: "Artifika", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+main{
+  margin-top: 5%;
+}
+
+nav {
+  width: 100%;
+  top: 0;
+  right: 0;
+  position:fixed;
+  overflow: hidden;
+  display: flex;
+  justify-content: right;
+
+}
+
+nav:hover{
+  background-color: #ffffff25;
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px); /* For Safari support */
+  box-shadow: 0 3px 12px 0 rgba(31, 38, 135, 0.37);
+}
+
+nav ul{
+  list-style: none;
+}
+
+nav li{
+  display: inline-flex;
+  padding: 0px 10px;
+}
+
+html{
+  background: url("../assets/Oceansign.jpg") center fixed;
+  background-size: cover;
+  background-repeat: no-repeat; 
+}
+
+canvas{
+  border: 1px solid;
+  position: absolute;
+  bottom: 50px;
+  left: 500px;
+  cursor: help;
+}
+
+.cards ul{
+  overflow-x: scroll;
+  scroll-snap-type: x mandatory;
+  display: flex;
+}
+
+.cards li{
+  list-style: none;
+  flex: 0 0 100%;
+  scroll-snap-align: center;
+}
+
+#index-h1, #portfolio, #contact{
+  width: 50%;
+  justify-self: right;
+  
+}
+
