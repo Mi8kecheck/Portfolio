@@ -79,10 +79,16 @@ canvas{
   scroll-snap-align: center;
 }
 
-#index-h1, #portfolio, #contact{
+#index-h1, #contact{
   width: 50%;
   justify-self: right;
   
 }
+
+#portfolio{
+  width: 80%;
+  justify-self: right;
+}
+
 
 
