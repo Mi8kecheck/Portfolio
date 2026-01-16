@@ -67,7 +67,7 @@ canvas{
   cursor: help;
 }
 
-.cards ul{
+.cards{
   overflow-x: scroll;
   scroll-snap-type: x mandatory;
   display: flex;
@@ -84,4 +84,5 @@ canvas{
   justify-self: right;
   
 }
+
 
